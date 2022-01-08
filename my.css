@@ -1,0 +1,985 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.bannaer{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%); 
+}
+
+.bannaer p{
+    color: #FFFFFF;
+
+}
+.content p{
+    color: #555555;
+    line-height: 28px;
+}
+
+
+/*altarnative*/
+
+.altarnetive-banner{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+
+}
+
+.altarnetive-banner p{
+    color: #FFFFFF;
+}
+
+.alternative-card .card{
+    width: 270px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+
+.alternative-card .card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.top-content {
+    width: 100%;
+    height: 145px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    border-radius: 5px;
+}
+
+.genarel .top-content h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bottom-content {
+    width: calc(100% - 10%);
+    margin: -55px auto;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.market-content{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%)
+}
+
+.market-content p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.market img{
+    width: 500px;
+}
+
+.technology-banner {
+    background: url(img/photo/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.technology-banner .menu-border {
+    border-bottom: 1px solid #0098DB;
+}
+
+.technology-banner .menubar li {
+    line-height: 45px;
+}
+
+.technology-banner .menubar a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+/*investment part*/
+
+.investment-banner{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+
+}
+
+.investment-banner .investment-body p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.investment-content .content-1 h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #060050;
+}
+.investment-content .content-1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+.investment-card .card{
+    height: 181px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+}
+.investment-card .card:hover{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.investment-card .card:hover h4{
+    color: white;
+}
+.investment-card .card:hover .font-image{
+    display: none;
+}
+
+.investment-card .card .content-image img{
+    height: 50px;
+    width: 44.87px;
+}
+.investment-card .card .card-content{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #060050;   
+}
+.investment-card .card .content-image .back-image{
+    display: none;
+    transition: .5s;
+}
+.investment-card .card:hover .back-image{
+    display: block;
+}
+
+/*bulding*/
+
+.building-banner{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+
+}
+.building-banner h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    
+    color: #FFFFFF;
+}
+.building-banner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.building-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #555555;
+
+}
+.building-content a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+    color: #555555;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 25px;
+
+}
+.buliding-card .card{
+    height: 523px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+.buliding-card .card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #555555;
+}   
+.buliding-card .card img{
+    height: 94px;
+    width: 94px;
+   
+}   
+.buliding-card .card .top{
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+}
+.exta-cotent p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #555555;
+}
+.buliding-card  a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+    color: #555555;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 25px;
+
+}
+.trademark-body  h2{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+}
+.trademark-body{
+    width: 367px;
+    height: 145px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    border-radius: 5px;
+} 
+.trademark-content{
+    width: 324px;
+    height: 340px; 
+    background: #FFFFFF;
+    /* gradient */
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -50px;
+} 
+.trademark-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+} 
+
+
+.research-banner{
+    height: 300px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+
+}
+.research-banner h2{
+    font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 67px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
+.research-banner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.research-buttom {
+    height: 160px;
+    width: 100%;
+    /* Gradient */
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    margin-left: -150px;
+    
+}
+.research-buttom p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+.make-content{
+    height: 237px;
+
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    border-radius: 5px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+    border-radius: 5px;
+}
+.make-content h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.goal-content{
+    height: 340px;
+    width: 483px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -100px;
+}
+.goal-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #555555;
+}
+.establishing-banner{
+    height: 300px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+
+}
+.establishing-banner h2{
+    font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 67px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
+.establishing-banner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.establishing-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+
+}
+
+.service-link a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #000000;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 25px;
+
+}
+
+.establishing-card .card{
+height: 250px;
+background: #FFFFFF;
+box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+border: none;
+}
+.establishing-card .card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    
+}
+
+.regional-banner{
+    height: 300px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.regional-banner h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.regional-banner p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.regional-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+.regional-card .card{
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+.regional-card .card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px; 
+    color: #555555;
+}
+.contact-banner{
+    height: 808px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.contact-banner p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contact-banner h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.contact-banner h4{
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+
+}
+.contact-from{
+    width: 1140px;
+    height: 1027px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px -7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -250px;
+
+}
+.contact-from .from-content p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+
+}
+.contact-from input{
+    height: 65px;
+    width: 100%;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background: none;
+    outline: none;
+
+}
+.contact-from label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.comment{
+    width: 100%;
+    height: 187px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.button{
+    width: 250px;
+    height: 65px;
+    background: #6B438A;
+    border-radius: 7px;
+}
+.button a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.login-page{
+    height: 934px;
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+
+
+.login-page .loging-content{
+    width: 544px;
+    height: 585px;
+    background: #FFFFFF;
+    box-shadow: 6px 32px 34px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+    margin: auto;
+}
+.loging-info h2{
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #7E28A9;
+
+}
+.loging-info p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+.login-file input{
+    height: 60px;
+    background: #EFF6FF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 7px;
+    outline: none;
+}
+.loging-button {
+    height: 60px;
+    width: 100%;
+    background: #852EB2;
+    border-radius: 7px;
+    
+}
+.loging-button a{
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+        
+
+}
+.box-content h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #555555;
+}
+.box-content p span{
+    top: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: center;
+    left: 0;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+   
+}
+.box-content p{
+
+    margin: 0;
+    padding-left: 86px;
+    position: relative;
+    line-height: 28px;
+    color: #382f2f;
+}
+.chack-point h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #555555;
+}
+.chack-point p img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+.chack-point p {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #787878;
+    margin: 0;
+    padding-left: 60px;
+        
+}
+.submission p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 65px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #555555;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    
+
+}
+.submission img{
+    width: 41px;
+    height: 20px;
+    margin-top: 20px;
+
+}
+
+
+.sposorship-body{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.sposorship-body h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.sposorship-body p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.sponsorship-content img{
+    height: 350px;
+  
+}
+.sponsorship-content h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #060050;
+
+}
+.sponsorship-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+.sponsorship-card .card{
+    height: 314px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    border: none;
+}
+.sponsorship-card .card h2{
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 57px;
+    color: #A9A9A9;
+}
+.sponsorship-card .card p{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #555555;
+}
+.patnership-body{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.patnership-body h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.patnership-body p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.patnership-content img{
+    height: 350px;
+}
+.patnership-content h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #060050;
+}
+.patnership-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+
+}
+.privet-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+
+}
+.patnership-card .card{
+    height: 192px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 3px;
+}
+.patnership-card .card h2{
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 57px;
+    color: #A9A9A9;
+    
+}
+.patnership-card .card p{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #555555; 
+}
+.customer-body{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.customer-body h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;  
+    color: #FFFFFF;
+    
+}
+.customer-body p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.customer-content h4{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #060050;
+}
+.customer-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+.customer-content .customer-following a{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #555555;
+    border: 2px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+   
+
+}
+.customer-content .customer-point p img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+   
+
+}
+.customer-content .customer-point p {
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #555555;
+
+}
+
+
+.consulting-body{
+    background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);
+}
+.consulting-body h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px; 
+    color: #FFFFFF;
+}
+.consulting-body p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.consulting-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #555555;
+
+}
+
+.consulting-card .card{
+    height: 158px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    border: none;
+}
+.consulting-card .card h2{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    color: #C6C6C6;
+}
+.consulting-card .card p{
+    font-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+    /* title */
+    
+    color: #060050;
+    
+}
+.consulting-card  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #555555;
+}
+.consulting-card  .consulting-text h4{
+    ont-family: Asap Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #060050;
+}
